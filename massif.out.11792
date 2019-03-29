@@ -1,0 +1,1011 @@
+desc: (none)
+cmd: python3 CNN_Fashion_Tensorflow.py
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2272751968
+mem_heap_B=18466828
+mem_heap_extra_B=1680980
+mem_stacks_B=0
+heap_tree=detailed
+n6: 18466828 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 9289991 0x1F4CD2: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 4335017 in 3389 places, all below massif's threshold (1.00%)
+  n1: 1310744 0x5D5395E: ???
+   n1: 1310744 0x55: ???
+    n1: 1310744 0x602489E: ???
+     n0: 1310744 0x40490D6: ???
+  n1: 1169265 0x1101: ???
+   n0: 593891 in 260 places, all below massif's threshold (1.00%)
+  n1: 210934 0x400BBE: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+   n0: 210934 in 9 places, all below massif's threshold (1.00%)
+ n8: 7539082 0x1A090082: ??? (in /home/apoorva/anaconda3/lib/libstdc++.so.6.0.25)
+  n0: 3982635 in 27906 places, all below massif's threshold (1.00%)
+  n1: 1649592 0x11DF2BA6: tensorflow::AttrValue::MergeFrom(tensorflow::AttrValue const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 1649592 0x11E1C2AB: void google::protobuf::internal::RepeatedPtrFieldBase::MergeFromInnerLoop<google::protobuf::RepeatedPtrField<tensorflow::KernelDef_AttrConstraint>::TypeHandler>(void**, void**, int, int) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n2: 1649592 0x11E1C913: tensorflow::KernelDef::KernelDef(tensorflow::KernelDef const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+     n1: 1649592 0x115F6AFA: tensorflow::kernel_factory::OpKernelRegistrar::InitInternal(tensorflow::KernelDef const*, absl::string_view, tensorflow::OpKernel* (*)(tensorflow::OpKernelConstruction*)) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+      n0: 1649592 in 5471 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+  n1: 550840 0x115E031C: tensorflow::OpRegistry::Register(std::function<tensorflow::Status (tensorflow::OpRegistrationData*)> const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 550840 0x115E0D80: tensorflow::register_op::OpDefBuilderReceiver::OpDefBuilderReceiver(tensorflow::register_op::OpDefBuilderWrapper<true> const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n0: 550840 in 1147 places, all below massif's threshold (1.00%)
+  n1: 305480 0x11E1C29C: void google::protobuf::internal::RepeatedPtrFieldBase::MergeFromInnerLoop<google::protobuf::RepeatedPtrField<tensorflow::KernelDef_AttrConstraint>::TypeHandler>(void**, void**, int, int) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n2: 305480 0x11E1C913: tensorflow::KernelDef::KernelDef(tensorflow::KernelDef const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n1: 305480 0x115F6AFA: tensorflow::kernel_factory::OpKernelRegistrar::InitInternal(tensorflow::KernelDef const*, absl::string_view, tensorflow::OpKernel* (*)(tensorflow::OpKernelConstruction*)) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+     n0: 305480 in 5471 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+  n1: 282639 0x115F6B1F: tensorflow::kernel_factory::OpKernelRegistrar::InitInternal(tensorflow::KernelDef const*, absl::string_view, tensorflow::OpKernel* (*)(tensorflow::OpKernelConstruction*)) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n0: 282639 in 5385 places, all below massif's threshold (1.00%)
+  n1: 244384 0x11E1BC84: tensorflow::KernelDef_AttrConstraint::MergeFrom(tensorflow::KernelDef_AttrConstraint const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 244384 0x11E1C2AB: void google::protobuf::internal::RepeatedPtrFieldBase::MergeFromInnerLoop<google::protobuf::RepeatedPtrField<tensorflow::KernelDef_AttrConstraint>::TypeHandler>(void**, void**, int, int) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n2: 244384 0x11E1C913: tensorflow::KernelDef::KernelDef(tensorflow::KernelDef const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+     n1: 244384 0x115F6AFA: tensorflow::kernel_factory::OpKernelRegistrar::InitInternal(tensorflow::KernelDef const*, absl::string_view, tensorflow::OpKernel* (*)(tensorflow::OpKernelConstruction*)) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+      n0: 244384 in 5471 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+  n1: 244384 0x11E1BCBE: tensorflow::KernelDef_AttrConstraint::MergeFrom(tensorflow::KernelDef_AttrConstraint const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 244384 0x11E1C2AB: void google::protobuf::internal::RepeatedPtrFieldBase::MergeFromInnerLoop<google::protobuf::RepeatedPtrField<tensorflow::KernelDef_AttrConstraint>::TypeHandler>(void**, void**, int, int) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n2: 244384 0x11E1C913: tensorflow::KernelDef::KernelDef(tensorflow::KernelDef const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+     n1: 244384 0x115F6AFA: tensorflow::kernel_factory::OpKernelRegistrar::InitInternal(tensorflow::KernelDef const*, absl::string_view, tensorflow::OpKernel* (*)(tensorflow::OpKernelConstruction*)) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+      n0: 244384 in 5471 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+  n2: 218840 0x11E1C8F6: tensorflow::KernelDef::KernelDef(tensorflow::KernelDef const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 218840 0x115F6AFA: tensorflow::kernel_factory::OpKernelRegistrar::InitInternal(tensorflow::KernelDef const*, absl::string_view, tensorflow::OpKernel* (*)(tensorflow::OpKernelConstruction*)) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n0: 218840 in 5471 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n0: 692460 in 102 places, all below massif's threshold (1.00%)
+ n1: 398784 0x2DEA3D: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 398784 in 1923 places, all below massif's threshold (1.00%)
+ n1: 305079 0x1F33CF: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 182767 in 1562 places, all below massif's threshold (1.00%)
+ n2: 241432 0x241054: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 214282 0x5DE4503: ???
+  n0: 27150 in 13 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=4994159874
+mem_heap_B=36096688
+mem_heap_extra_B=2096080
+mem_stacks_B=0
+heap_tree=detailed
+n6: 36096688 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 24298199 0x1F4CD2: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 12635131 in 9485 places, all below massif's threshold (1.00%)
+  n1: 2810401 0x1101: ???
+   n0: 1548177 in 647 places, all below massif's threshold (1.00%)
+ n3: 8241155 0x1A090082: ??? (in /home/apoorva/anaconda3/lib/libstdc++.so.6.0.25)
+  n0: 5961715 in 30517 places, all below massif's threshold (1.00%)
+  n1: 1649592 0x11DF2BA6: tensorflow::AttrValue::MergeFrom(tensorflow::AttrValue const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 1649592 0x11E1C2AB: void google::protobuf::internal::RepeatedPtrFieldBase::MergeFromInnerLoop<google::protobuf::RepeatedPtrField<tensorflow::KernelDef_AttrConstraint>::TypeHandler>(void**, void**, int, int) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n2: 1649592 0x11E1C913: tensorflow::KernelDef::KernelDef(tensorflow::KernelDef const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+     n1: 1649592 0x115F6AFA: tensorflow::kernel_factory::OpKernelRegistrar::InitInternal(tensorflow::KernelDef const*, absl::string_view, tensorflow::OpKernel* (*)(tensorflow::OpKernelConstruction*)) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+      n0: 1649592 in 5471 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+  n1: 550840 0x115E031C: tensorflow::OpRegistry::Register(std::function<tensorflow::Status (tensorflow::OpRegistrationData*)> const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 550840 0x115E0D80: tensorflow::register_op::OpDefBuilderReceiver::OpDefBuilderReceiver(tensorflow::register_op::OpDefBuilderWrapper<true> const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n0: 550840 in 1147 places, all below massif's threshold (1.00%)
+ n0: 1426300 in 208 places, all below massif's threshold (1.00%)
+ n1: 840344 0x2DEA3D: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 840344 in 3963 places, all below massif's threshold (1.00%)
+ n2: 682757 0x241054: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 447576 0x5DE4503: ???
+  n0: 220189 in 128 places, all below massif's threshold (1.00%)
+ n1: 607933 0x1F33CF: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 330325 in 3373 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=6639034821
+mem_heap_B=81230005
+mem_heap_extra_B=2276427
+mem_stacks_B=0
+heap_tree=detailed
+n4: 81230005 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 69009813 0x1F4CD2: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 14655648 in 10967 places, all below massif's threshold (1.00%)
+  n1: 2955687 0x1101: ???
+   n0: 1637483 in 698 places, all below massif's threshold (1.00%)
+ n2: 8244627 0x1A090082: ??? (in /home/apoorva/anaconda3/lib/libstdc++.so.6.0.25)
+  n0: 6515771 in 30600 places, all below massif's threshold (1.00%)
+  n1: 1649592 0x11DF2BA6: tensorflow::AttrValue::MergeFrom(tensorflow::AttrValue const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 1649592 0x11E1C2AB: void google::protobuf::internal::RepeatedPtrFieldBase::MergeFromInnerLoop<google::protobuf::RepeatedPtrField<tensorflow::KernelDef_AttrConstraint>::TypeHandler>(void**, void**, int, int) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n2: 1649592 0x11E1C913: tensorflow::KernelDef::KernelDef(tensorflow::KernelDef const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+     n1: 1649592 0x115F6AFA: tensorflow::kernel_factory::OpKernelRegistrar::InitInternal(tensorflow::KernelDef const*, absl::string_view, tensorflow::OpKernel* (*)(tensorflow::OpKernelConstruction*)) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+      n0: 1649592 in 5471 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n0: 3047725 in 222 places, all below massif's threshold (1.00%)
+ n1: 927840 0x2DEA3D: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 927840 in 4307 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=8963048451
+mem_heap_B=482983929
+mem_heap_extra_B=2472751
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=11314399727
+mem_heap_B=514208638
+mem_heap_extra_B=3579626
+mem_stacks_B=0
+heap_tree=detailed
+n5: 514208638 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 440160783 0x6792FDB: PyDataMem_NEW (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+  n2: 440159394 0x67D7F69: PyArray_NewFromDescr_int (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+   n2: 439253057 0x67D7FC4: PyArray_NewFromDescr (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+    n2: 439040912 0x687658B: npyiter_new_temp_array (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+     n1: 439040912 0x6878FDA: NpyIter_AdvancedNew (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+      n1: 439040912 0x7357C53: PyUFunc_GenericFunction (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+       n1: 439040912 0x7358934: ufunc_generic_call (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+        n2: 439040912 0x21B5B9: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+         n0: 439040000 0x5D31E0E: ???
+         n0: 912 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 212145 in 15 places, all below massif's threshold (1.00%)
+   n0: 906337 in 8 places, all below massif's threshold (1.00%)
+  n0: 1389 in 2 places, all below massif's threshold (1.00%)
+ n1: 28938610 0x1F4CD2: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 18834955 in 11714 places, all below massif's threshold (1.00%)
+ n2: 17406144 0x336720F2: mkl_serv_allocate (in /home/apoorva/anaconda3/lib/libmkl_core.so)
+  n1: 17361024 0x3F097C34: mkl_blas_avx2_sgemm_get_bufs (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+   n2: 17361024 0x3F0993FA: mkl_blas_avx2_s_generic_fullacopybcopy (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+    n1: 8680512 0x3BE04A56: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC8496: __kmp_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8B9F7DC: __kmpc_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x3BE0EEB5: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+           n1: 8680512 0x3BE0DD6C: mkl_blas_sgemm (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+            n0: 8680512 in 2 places, all below massif's threshold (1.00%)
+    n1: 8680512 0x3BE04BBE: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC68D3: __kmp_launch_thread (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8BF8FA2: _INTERNAL_26_______src_z_Linux_util_cpp_16f8393c::__kmp_launch_worker(void*) (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x4E386B8: start_thread (pthread_create.c:333)
+           n0: 4340256 in 1 place, below massif's threshold (1.00%)
+  n0: 45120 in 1 place, below massif's threshold (1.00%)
+ n1: 16811538 0x1A090082: ??? (in /home/apoorva/anaconda3/lib/libstdc++.so.6.0.25)
+  n0: 16710743 in 67989 places, all below massif's threshold (1.00%)
+ n0: 10891563 in 621 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=12719175729
+mem_heap_B=518589920
+mem_heap_extra_B=3582368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=14635267157
+mem_heap_B=518465909
+mem_heap_extra_B=3583787
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=16424754965
+mem_heap_B=518602020
+mem_heap_extra_B=3586332
+mem_stacks_B=0
+heap_tree=detailed
+n6: 518602020 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 440160783 0x6792FDB: PyDataMem_NEW (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+  n2: 440159394 0x67D7F69: PyArray_NewFromDescr_int (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+   n2: 439253057 0x67D7FC4: PyArray_NewFromDescr (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+    n2: 439040912 0x687658B: npyiter_new_temp_array (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+     n1: 439040912 0x6878FDA: NpyIter_AdvancedNew (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+      n1: 439040912 0x7357C53: PyUFunc_GenericFunction (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+       n1: 439040912 0x7358934: ufunc_generic_call (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+        n2: 439040912 0x21B5B9: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+         n0: 439040000 0x5D31E0E: ???
+         n0: 912 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 212145 in 15 places, all below massif's threshold (1.00%)
+   n0: 906337 in 8 places, all below massif's threshold (1.00%)
+  n0: 1389 in 2 places, all below massif's threshold (1.00%)
+ n1: 28938610 0x1F4CD2: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 18834955 in 11714 places, all below massif's threshold (1.00%)
+ n2: 17406144 0x336720F2: mkl_serv_allocate (in /home/apoorva/anaconda3/lib/libmkl_core.so)
+  n1: 17361024 0x3F097C34: mkl_blas_avx2_sgemm_get_bufs (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+   n2: 17361024 0x3F0993FA: mkl_blas_avx2_s_generic_fullacopybcopy (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+    n1: 8680512 0x3BE04A56: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC8496: __kmp_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8B9F7DC: __kmpc_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x3BE0EEB5: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+           n1: 8680512 0x3BE0DD6C: mkl_blas_sgemm (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+            n0: 8680512 in 2 places, all below massif's threshold (1.00%)
+    n1: 8680512 0x3BE04BBE: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC68D3: __kmp_launch_thread (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8BF8FA2: _INTERNAL_26_______src_z_Linux_util_cpp_16f8393c::__kmp_launch_worker(void*) (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x4E386B8: start_thread (pthread_create.c:333)
+           n0: 4340256 in 1 place, below massif's threshold (1.00%)
+  n0: 45120 in 1 place, below massif's threshold (1.00%)
+ n1: 16963813 0x1A090082: ??? (in /home/apoorva/anaconda3/lib/libstdc++.so.6.0.25)
+  n0: 16863018 in 67990 places, all below massif's threshold (1.00%)
+ n2: 7624900 0x11C72325: tensorflow::port::AlignedMalloc(unsigned long, int) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+  n2: 7346148 0x1180478F: tensorflow::BasicCPUAllocator::Alloc(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 7340032 0x1179C50E: tensorflow::BFCAllocator::Extend(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n1: 7340032 0x1179F711: tensorflow::BFCAllocator::AllocateRawInternal(unsigned long, unsigned long, bool) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+     n2: 7340032 0x1179F9BF: tensorflow::BFCAllocator::AllocateRaw(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+      n1: 5242880 0x11623F0C: tensorflow::Tensor::Tensor(tensorflow::Allocator*, tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+       n1: 5242880 0x115F53C1: tensorflow::OpKernelContext::allocate_tensor(tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::Tensor*, tensorflow::AllocatorAttributes, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+        n1: 5242880 0x115F57CF: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**, tensorflow::AllocatorAttributes) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+         n1: 5242880 0x115F5889: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+          n0: 5242880 in 2 places, all below massif's threshold (1.00%)
+      n0: 2097152 in 1 place, below massif's threshold (1.00%)
+   n0: 6116 in 1 place, below massif's threshold (1.00%)
+  n0: 278752 in 2 places, all below massif's threshold (1.00%)
+ n0: 7507770 in 620 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=19300959861
+mem_heap_B=518482733
+mem_heap_extra_B=3588619
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=21115924496
+mem_heap_B=518622744
+mem_heap_extra_B=3591280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=22929911231
+mem_heap_B=518492676
+mem_heap_extra_B=3592636
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=24946019859
+mem_heap_B=518653080
+mem_heap_extra_B=3596992
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=27434946774
+mem_heap_B=518652584
+mem_heap_extra_B=3598112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=30136306819
+mem_heap_B=518659020
+mem_heap_extra_B=3602020
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=32499794431
+mem_heap_B=518662972
+mem_heap_extra_B=3604796
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=35538795868
+mem_heap_B=518707404
+mem_heap_extra_B=3607172
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=38578630110
+mem_heap_B=518712820
+mem_heap_extra_B=3610812
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=41279140879
+mem_heap_B=518782245
+mem_heap_extra_B=3613091
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=43641873042
+mem_heap_B=518727900
+mem_heap_extra_B=3617276
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=46667172065
+mem_heap_B=518730232
+mem_heap_extra_B=3619592
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=48482792516
+mem_heap_B=518733292
+mem_heap_extra_B=3621668
+mem_stacks_B=0
+heap_tree=detailed
+n6: 518733292 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 440160783 0x6792FDB: PyDataMem_NEW (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+  n2: 440159394 0x67D7F69: PyArray_NewFromDescr_int (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+   n2: 439253057 0x67D7FC4: PyArray_NewFromDescr (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+    n2: 439040912 0x687658B: npyiter_new_temp_array (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+     n1: 439040912 0x6878FDA: NpyIter_AdvancedNew (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+      n1: 439040912 0x7357C53: PyUFunc_GenericFunction (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+       n1: 439040912 0x7358934: ufunc_generic_call (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+        n2: 439040912 0x21B5B9: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+         n0: 439040000 0x5D31E0E: ???
+         n0: 912 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 212145 in 15 places, all below massif's threshold (1.00%)
+   n0: 906337 in 8 places, all below massif's threshold (1.00%)
+  n0: 1389 in 2 places, all below massif's threshold (1.00%)
+ n1: 28938610 0x1F4CD2: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 18834955 in 11714 places, all below massif's threshold (1.00%)
+ n2: 17406144 0x336720F2: mkl_serv_allocate (in /home/apoorva/anaconda3/lib/libmkl_core.so)
+  n1: 17361024 0x3F097C34: mkl_blas_avx2_sgemm_get_bufs (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+   n2: 17361024 0x3F0993FA: mkl_blas_avx2_s_generic_fullacopybcopy (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+    n1: 8680512 0x3BE04A56: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC8496: __kmp_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8B9F7DC: __kmpc_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x3BE0EEB5: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+           n1: 8680512 0x3BE0DD6C: mkl_blas_sgemm (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+            n0: 8680512 in 2 places, all below massif's threshold (1.00%)
+    n1: 8680512 0x3BE04BBE: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC68D3: __kmp_launch_thread (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8BF8FA2: _INTERNAL_26_______src_z_Linux_util_cpp_16f8393c::__kmp_launch_worker(void*) (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x4E386B8: start_thread (pthread_create.c:333)
+           n0: 4340256 in 1 place, below massif's threshold (1.00%)
+  n0: 45120 in 1 place, below massif's threshold (1.00%)
+ n1: 17056077 0x1A090082: ??? (in /home/apoorva/anaconda3/lib/libstdc++.so.6.0.25)
+  n0: 16955282 in 67991 places, all below massif's threshold (1.00%)
+ n2: 7624900 0x11C72325: tensorflow::port::AlignedMalloc(unsigned long, int) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+  n2: 7346148 0x1180478F: tensorflow::BasicCPUAllocator::Alloc(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 7340032 0x1179C50E: tensorflow::BFCAllocator::Extend(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n1: 7340032 0x1179F711: tensorflow::BFCAllocator::AllocateRawInternal(unsigned long, unsigned long, bool) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+     n2: 7340032 0x1179F9BF: tensorflow::BFCAllocator::AllocateRaw(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+      n1: 5242880 0x11623F0C: tensorflow::Tensor::Tensor(tensorflow::Allocator*, tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+       n1: 5242880 0x115F53C1: tensorflow::OpKernelContext::allocate_tensor(tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::Tensor*, tensorflow::AllocatorAttributes, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+        n1: 5242880 0x115F57CF: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**, tensorflow::AllocatorAttributes) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+         n1: 5242880 0x115F5889: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+          n0: 5242880 in 2 places, all below massif's threshold (1.00%)
+      n0: 2097152 in 1 place, below massif's threshold (1.00%)
+   n0: 6116 in 1 place, below massif's threshold (1.00%)
+  n0: 278752 in 2 places, all below massif's threshold (1.00%)
+ n0: 7546778 in 620 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=50902973233
+mem_heap_B=518737296
+mem_heap_extra_B=3624184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=52717924403
+mem_heap_B=518740476
+mem_heap_extra_B=3626324
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=55137925552
+mem_heap_B=518749288
+mem_heap_extra_B=3630328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=56348969802
+mem_heap_B=518748444
+mem_heap_extra_B=3631236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=59373944833
+mem_heap_B=518784372
+mem_heap_extra_B=3633484
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=61793691031
+mem_heap_B=518837692
+mem_heap_extra_B=3636140
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=64819504514
+mem_heap_B=518706900
+mem_heap_extra_B=3638892
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=66635339312
+mem_heap_B=518847540
+mem_heap_extra_B=3642412
+mem_stacks_B=0
+heap_tree=detailed
+n6: 518847540 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 440160783 0x6792FDB: PyDataMem_NEW (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+  n2: 440159394 0x67D7F69: PyArray_NewFromDescr_int (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+   n2: 439253057 0x67D7FC4: PyArray_NewFromDescr (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+    n2: 439040912 0x687658B: npyiter_new_temp_array (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+     n1: 439040912 0x6878FDA: NpyIter_AdvancedNew (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+      n1: 439040912 0x7357C53: PyUFunc_GenericFunction (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+       n1: 439040912 0x7358934: ufunc_generic_call (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+        n2: 439040912 0x21B5B9: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+         n0: 439040000 0x5D31E0E: ???
+         n0: 912 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 212145 in 15 places, all below massif's threshold (1.00%)
+   n0: 906337 in 8 places, all below massif's threshold (1.00%)
+  n0: 1389 in 2 places, all below massif's threshold (1.00%)
+ n1: 28938610 0x1F4CD2: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 18834955 in 11714 places, all below massif's threshold (1.00%)
+ n2: 17406144 0x336720F2: mkl_serv_allocate (in /home/apoorva/anaconda3/lib/libmkl_core.so)
+  n1: 17361024 0x3F097C34: mkl_blas_avx2_sgemm_get_bufs (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+   n2: 17361024 0x3F0993FA: mkl_blas_avx2_s_generic_fullacopybcopy (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+    n1: 8680512 0x3BE04A56: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC8496: __kmp_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8B9F7DC: __kmpc_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x3BE0EEB5: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+           n1: 8680512 0x3BE0DD6C: mkl_blas_sgemm (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+            n0: 8680512 in 2 places, all below massif's threshold (1.00%)
+    n1: 8680512 0x3BE04BBE: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC68D3: __kmp_launch_thread (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8BF8FA2: _INTERNAL_26_______src_z_Linux_util_cpp_16f8393c::__kmp_launch_worker(void*) (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x4E386B8: start_thread (pthread_create.c:333)
+           n0: 4340256 in 1 place, below massif's threshold (1.00%)
+  n0: 45120 in 1 place, below massif's threshold (1.00%)
+ n1: 17141853 0x1A090082: ??? (in /home/apoorva/anaconda3/lib/libstdc++.so.6.0.25)
+  n0: 17041058 in 67991 places, all below massif's threshold (1.00%)
+ n2: 7626276 0x11C72325: tensorflow::port::AlignedMalloc(unsigned long, int) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+  n2: 7347524 0x1180478F: tensorflow::BasicCPUAllocator::Alloc(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 7340032 0x1179C50E: tensorflow::BFCAllocator::Extend(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n1: 7340032 0x1179F711: tensorflow::BFCAllocator::AllocateRawInternal(unsigned long, unsigned long, bool) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+     n2: 7340032 0x1179F9BF: tensorflow::BFCAllocator::AllocateRaw(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+      n1: 5242880 0x11623F0C: tensorflow::Tensor::Tensor(tensorflow::Allocator*, tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+       n1: 5242880 0x115F53C1: tensorflow::OpKernelContext::allocate_tensor(tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::Tensor*, tensorflow::AllocatorAttributes, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+        n1: 5242880 0x115F57CF: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**, tensorflow::AllocatorAttributes) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+         n1: 5242880 0x115F5889: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+          n0: 5242880 in 2 places, all below massif's threshold (1.00%)
+      n0: 2097152 in 1 place, below massif's threshold (1.00%)
+   n0: 7492 in 1 place, below massif's threshold (1.00%)
+  n0: 278752 in 2 places, all below massif's threshold (1.00%)
+ n0: 7573874 in 620 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=69056109868
+mem_heap_B=518849692
+mem_heap_extra_B=3644428
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=70871107060
+mem_heap_B=518854668
+mem_heap_extra_B=3647348
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=72686641837
+mem_heap_B=518856076
+mem_heap_extra_B=3648412
+mem_stacks_B=0
+heap_tree=detailed
+n6: 518856076 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 440160783 0x6792FDB: PyDataMem_NEW (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+  n2: 440159394 0x67D7F69: PyArray_NewFromDescr_int (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+   n2: 439253057 0x67D7FC4: PyArray_NewFromDescr (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+    n2: 439040912 0x687658B: npyiter_new_temp_array (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+     n1: 439040912 0x6878FDA: NpyIter_AdvancedNew (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+      n1: 439040912 0x7357C53: PyUFunc_GenericFunction (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+       n1: 439040912 0x7358934: ufunc_generic_call (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+        n2: 439040912 0x21B5B9: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+         n0: 439040000 0x5D31E0E: ???
+         n0: 912 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 212145 in 15 places, all below massif's threshold (1.00%)
+   n0: 906337 in 8 places, all below massif's threshold (1.00%)
+  n0: 1389 in 2 places, all below massif's threshold (1.00%)
+ n1: 28938610 0x1F4CD2: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 18834955 in 11714 places, all below massif's threshold (1.00%)
+ n2: 17406144 0x336720F2: mkl_serv_allocate (in /home/apoorva/anaconda3/lib/libmkl_core.so)
+  n1: 17361024 0x3F097C34: mkl_blas_avx2_sgemm_get_bufs (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+   n2: 17361024 0x3F0993FA: mkl_blas_avx2_s_generic_fullacopybcopy (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+    n1: 8680512 0x3BE04A56: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC8496: __kmp_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8B9F7DC: __kmpc_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x3BE0EEB5: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+           n1: 8680512 0x3BE0DD6C: mkl_blas_sgemm (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+            n0: 8680512 in 2 places, all below massif's threshold (1.00%)
+    n1: 8680512 0x3BE04BBE: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC68D3: __kmp_launch_thread (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8BF8FA2: _INTERNAL_26_______src_z_Linux_util_cpp_16f8393c::__kmp_launch_worker(void*) (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x4E386B8: start_thread (pthread_create.c:333)
+           n0: 4340256 in 1 place, below massif's threshold (1.00%)
+  n0: 45120 in 1 place, below massif's threshold (1.00%)
+ n1: 17148173 0x1A090082: ??? (in /home/apoorva/anaconda3/lib/libstdc++.so.6.0.25)
+  n0: 17047378 in 67991 places, all below massif's threshold (1.00%)
+ n2: 7624892 0x11C72325: tensorflow::port::AlignedMalloc(unsigned long, int) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+  n2: 7346140 0x1180478F: tensorflow::BasicCPUAllocator::Alloc(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 7340032 0x1179C50E: tensorflow::BFCAllocator::Extend(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n1: 7340032 0x1179F711: tensorflow::BFCAllocator::AllocateRawInternal(unsigned long, unsigned long, bool) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+     n2: 7340032 0x1179F9BF: tensorflow::BFCAllocator::AllocateRaw(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+      n1: 5242880 0x11623F0C: tensorflow::Tensor::Tensor(tensorflow::Allocator*, tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+       n1: 5242880 0x115F53C1: tensorflow::OpKernelContext::allocate_tensor(tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::Tensor*, tensorflow::AllocatorAttributes, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+        n1: 5242880 0x115F57CF: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**, tensorflow::AllocatorAttributes) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+         n1: 5242880 0x115F5889: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+          n0: 5242880 in 2 places, all below massif's threshold (1.00%)
+      n0: 2097152 in 1 place, below massif's threshold (1.00%)
+   n0: 6108 in 1 place, below massif's threshold (1.00%)
+  n0: 278752 in 2 places, all below massif's threshold (1.00%)
+ n0: 7577474 in 620 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=74573307783
+mem_heap_B=518861500
+mem_heap_extra_B=3651804
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=75924253843
+mem_heap_B=518863724
+mem_heap_extra_B=3653228
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=77949668360
+mem_heap_B=518865236
+mem_heap_extra_B=3654596
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=79300008524
+mem_heap_B=518867296
+mem_heap_extra_B=3655744
+mem_stacks_B=0
+heap_tree=detailed
+n6: 518867296 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 440160783 0x6792FDB: PyDataMem_NEW (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+  n2: 440159394 0x67D7F69: PyArray_NewFromDescr_int (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+   n2: 439253057 0x67D7FC4: PyArray_NewFromDescr (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+    n2: 439040912 0x687658B: npyiter_new_temp_array (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+     n1: 439040912 0x6878FDA: NpyIter_AdvancedNew (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+      n1: 439040912 0x7357C53: PyUFunc_GenericFunction (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+       n1: 439040912 0x7358934: ufunc_generic_call (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+        n2: 439040912 0x21B5B9: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+         n0: 439040000 0x5D31E0E: ???
+         n0: 912 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 212145 in 15 places, all below massif's threshold (1.00%)
+   n0: 906337 in 8 places, all below massif's threshold (1.00%)
+  n0: 1389 in 2 places, all below massif's threshold (1.00%)
+ n1: 28938610 0x1F4CD2: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 18834955 in 11714 places, all below massif's threshold (1.00%)
+ n2: 17406144 0x336720F2: mkl_serv_allocate (in /home/apoorva/anaconda3/lib/libmkl_core.so)
+  n1: 17361024 0x3F097C34: mkl_blas_avx2_sgemm_get_bufs (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+   n2: 17361024 0x3F0993FA: mkl_blas_avx2_s_generic_fullacopybcopy (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+    n1: 8680512 0x3BE04A56: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC8496: __kmp_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8B9F7DC: __kmpc_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x3BE0EEB5: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+           n1: 8680512 0x3BE0DD6C: mkl_blas_sgemm (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+            n0: 8680512 in 2 places, all below massif's threshold (1.00%)
+    n1: 8680512 0x3BE04BBE: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC68D3: __kmp_launch_thread (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8BF8FA2: _INTERNAL_26_______src_z_Linux_util_cpp_16f8393c::__kmp_launch_worker(void*) (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x4E386B8: start_thread (pthread_create.c:333)
+           n0: 4340256 in 1 place, below massif's threshold (1.00%)
+  n0: 45120 in 1 place, below massif's threshold (1.00%)
+ n1: 17155245 0x1A090082: ??? (in /home/apoorva/anaconda3/lib/libstdc++.so.6.0.25)
+  n0: 17054450 in 67991 places, all below massif's threshold (1.00%)
+ n2: 7624888 0x11C72325: tensorflow::port::AlignedMalloc(unsigned long, int) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+  n2: 7346136 0x1180478F: tensorflow::BasicCPUAllocator::Alloc(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 7340032 0x1179C50E: tensorflow::BFCAllocator::Extend(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n1: 7340032 0x1179F711: tensorflow::BFCAllocator::AllocateRawInternal(unsigned long, unsigned long, bool) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+     n2: 7340032 0x1179F9BF: tensorflow::BFCAllocator::AllocateRaw(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+      n1: 5242880 0x11623F0C: tensorflow::Tensor::Tensor(tensorflow::Allocator*, tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+       n1: 5242880 0x115F53C1: tensorflow::OpKernelContext::allocate_tensor(tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::Tensor*, tensorflow::AllocatorAttributes, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+        n1: 5242880 0x115F57CF: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**, tensorflow::AllocatorAttributes) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+         n1: 5242880 0x115F5889: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+          n0: 5242880 in 2 places, all below massif's threshold (1.00%)
+      n0: 2097152 in 1 place, below massif's threshold (1.00%)
+   n0: 6104 in 1 place, below massif's threshold (1.00%)
+  n0: 278752 in 2 places, all below massif's threshold (1.00%)
+ n0: 7581626 in 620 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=81325800209
+mem_heap_B=518875364
+mem_heap_extra_B=3659540
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=83352345698
+mem_heap_B=518873840
+mem_heap_extra_B=3660208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=84702758121
+mem_heap_B=518887208
+mem_heap_extra_B=3662712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=86729178959
+mem_heap_B=518887916
+mem_heap_extra_B=3664292
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=88080377146
+mem_heap_B=518890124
+mem_heap_extra_B=3665604
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=90781070393
+mem_heap_B=518894360
+mem_heap_extra_B=3668264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=93481696363
+mem_heap_B=518899292
+mem_heap_extra_B=3671572
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=96183426263
+mem_heap_B=518905540
+mem_heap_extra_B=3675284
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=98209557026
+mem_heap_B=518908908
+mem_heap_extra_B=3677612
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=100910534043
+mem_heap_B=518911556
+mem_heap_extra_B=3679652
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=103612261774
+mem_heap_B=518958044
+mem_heap_extra_B=3684260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=105639170692
+mem_heap_B=518984908
+mem_heap_extra_B=3684716
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=107664857738
+mem_heap_B=518954333
+mem_heap_extra_B=3686723
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=108875928510
+mem_heap_B=519022688
+mem_heap_extra_B=3688192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=110087782250
+mem_heap_B=519057820
+mem_heap_extra_B=3689916
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=111298856006
+mem_heap_B=519062452
+mem_heap_extra_B=3691860
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=112510161161
+mem_heap_B=519061664
+mem_heap_extra_B=3692352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=113721205549
+mem_heap_B=519065853
+mem_heap_extra_B=3694747
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=114932402131
+mem_heap_B=519065512
+mem_heap_extra_B=3695088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=116143780879
+mem_heap_B=519067664
+mem_heap_extra_B=3696552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=117354842183
+mem_heap_B=519102552
+mem_heap_extra_B=3697960
+mem_stacks_B=0
+heap_tree=detailed
+n6: 519102552 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 440160783 0x6792FDB: PyDataMem_NEW (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+  n2: 440159394 0x67D7F69: PyArray_NewFromDescr_int (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+   n2: 439253057 0x67D7FC4: PyArray_NewFromDescr (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+    n2: 439040912 0x687658B: npyiter_new_temp_array (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+     n1: 439040912 0x6878FDA: NpyIter_AdvancedNew (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+      n1: 439040912 0x7357C53: PyUFunc_GenericFunction (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+       n1: 439040912 0x7358934: ufunc_generic_call (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+        n2: 439040912 0x21B5B9: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+         n0: 439040000 0x5D31E0E: ???
+         n0: 912 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 212145 in 15 places, all below massif's threshold (1.00%)
+   n0: 906337 in 8 places, all below massif's threshold (1.00%)
+  n0: 1389 in 2 places, all below massif's threshold (1.00%)
+ n1: 28938610 0x1F4CD2: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 18834955 in 11714 places, all below massif's threshold (1.00%)
+ n2: 17406144 0x336720F2: mkl_serv_allocate (in /home/apoorva/anaconda3/lib/libmkl_core.so)
+  n1: 17361024 0x3F097C34: mkl_blas_avx2_sgemm_get_bufs (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+   n2: 17361024 0x3F0993FA: mkl_blas_avx2_s_generic_fullacopybcopy (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+    n1: 8680512 0x3BE04A56: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC8496: __kmp_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8B9F7DC: __kmpc_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x3BE0EEB5: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+           n1: 8680512 0x3BE0DD6C: mkl_blas_sgemm (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+            n0: 8680512 in 2 places, all below massif's threshold (1.00%)
+    n1: 8680512 0x3BE04BBE: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC68D3: __kmp_launch_thread (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8BF8FA2: _INTERNAL_26_______src_z_Linux_util_cpp_16f8393c::__kmp_launch_worker(void*) (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x4E386B8: start_thread (pthread_create.c:333)
+           n0: 4340256 in 1 place, below massif's threshold (1.00%)
+  n0: 45120 in 1 place, below massif's threshold (1.00%)
+ n1: 17327229 0x1A090082: ??? (in /home/apoorva/anaconda3/lib/libstdc++.so.6.0.25)
+  n0: 17226434 in 67991 places, all below massif's threshold (1.00%)
+ n0: 7644898 in 620 places, all below massif's threshold (1.00%)
+ n2: 7624888 0x11C72325: tensorflow::port::AlignedMalloc(unsigned long, int) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+  n2: 7346136 0x1180478F: tensorflow::BasicCPUAllocator::Alloc(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 7340032 0x1179C50E: tensorflow::BFCAllocator::Extend(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n1: 7340032 0x1179F711: tensorflow::BFCAllocator::AllocateRawInternal(unsigned long, unsigned long, bool) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+     n2: 7340032 0x1179F9BF: tensorflow::BFCAllocator::AllocateRaw(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+      n1: 5242880 0x11623F0C: tensorflow::Tensor::Tensor(tensorflow::Allocator*, tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+       n1: 5242880 0x115F53C1: tensorflow::OpKernelContext::allocate_tensor(tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::Tensor*, tensorflow::AllocatorAttributes, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+        n1: 5242880 0x115F57CF: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**, tensorflow::AllocatorAttributes) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+         n1: 5242880 0x115F5889: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+          n0: 5242880 in 2 places, all below massif's threshold (1.00%)
+      n0: 2097152 in 1 place, below massif's threshold (1.00%)
+   n0: 6104 in 1 place, below massif's threshold (1.00%)
+  n0: 278752 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=118565942451
+mem_heap_B=519104852
+mem_heap_extra_B=3699492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=119686723060
+mem_heap_B=519248403
+mem_heap_extra_B=3794517
+mem_stacks_B=0
+heap_tree=peak
+n6: 519248403 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 439760783 0x6792FDB: PyDataMem_NEW (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+  n2: 439759394 0x67D7F69: PyArray_NewFromDescr_int (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+   n2: 439253057 0x67D7FC4: PyArray_NewFromDescr (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+    n2: 439040912 0x687658B: npyiter_new_temp_array (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+     n1: 439040912 0x6878FDA: NpyIter_AdvancedNew (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-x86_64-linux-gnu.so)
+      n1: 439040912 0x7357C53: PyUFunc_GenericFunction (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+       n1: 439040912 0x7358934: ufunc_generic_call (in /home/apoorva/anaconda3/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-x86_64-linux-gnu.so)
+        n2: 439040912 0x21B5B9: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+         n0: 439040000 0x5D31E0E: ???
+         n0: 912 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 212145 in 15 places, all below massif's threshold (1.00%)
+   n0: 506337 in 8 places, all below massif's threshold (1.00%)
+  n0: 1389 in 2 places, all below massif's threshold (1.00%)
+ n1: 28942594 0x1F4CD2: ??? (in /home/apoorva/anaconda3/bin/python3.6)
+  n0: 18834955 in 11714 places, all below massif's threshold (1.00%)
+ n1: 17871416 0x1A090082: ??? (in /home/apoorva/anaconda3/lib/libstdc++.so.6.0.25)
+  n0: 17770621 in 68689 places, all below massif's threshold (1.00%)
+ n2: 17406144 0x336720F2: mkl_serv_allocate (in /home/apoorva/anaconda3/lib/libmkl_core.so)
+  n1: 17361024 0x3F097C34: mkl_blas_avx2_sgemm_get_bufs (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+   n2: 17361024 0x3F0993FA: mkl_blas_avx2_s_generic_fullacopybcopy (in /home/apoorva/anaconda3/lib/libmkl_avx2.so)
+    n1: 8680512 0x3BE04A56: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC8496: __kmp_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8B9F7DC: __kmpc_fork_call (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x3BE0EEB5: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+           n1: 8680512 0x3BE0DD6C: mkl_blas_sgemm (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+            n0: 8680512 in 2 places, all below massif's threshold (1.00%)
+    n1: 8680512 0x3BE04BBE: gblock_by_k_omp (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+     n1: 8680512 0x3BE0F91A: gemm_omp_driver_v2 (in /home/apoorva/anaconda3/lib/libmkl_intel_thread.so)
+      n1: 8680512 0x8BF8AC1: __kmp_invoke_microtask (in /home/apoorva/anaconda3/lib/libiomp5.so)
+       n1: 8680512 0x8BC7255: __kmp_invoke_task_func (in /home/apoorva/anaconda3/lib/libiomp5.so)
+        n1: 8680512 0x8BC68D3: __kmp_launch_thread (in /home/apoorva/anaconda3/lib/libiomp5.so)
+         n1: 8680512 0x8BF8FA2: _INTERNAL_26_______src_z_Linux_util_cpp_16f8393c::__kmp_launch_worker(void*) (in /home/apoorva/anaconda3/lib/libiomp5.so)
+          n1: 8680512 0x4E386B8: start_thread (pthread_create.c:333)
+           n0: 4340256 in 1 place, below massif's threshold (1.00%)
+  n0: 45120 in 1 place, below massif's threshold (1.00%)
+ n0: 7634394 in 620 places, all below massif's threshold (1.00%)
+ n2: 7633072 0x11C72325: tensorflow::port::AlignedMalloc(unsigned long, int) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+  n2: 7346128 0x1180478F: tensorflow::BasicCPUAllocator::Alloc(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+   n1: 7340032 0x1179C50E: tensorflow::BFCAllocator::Extend(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+    n1: 7340032 0x1179F711: tensorflow::BFCAllocator::AllocateRawInternal(unsigned long, unsigned long, bool) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+     n2: 7340032 0x1179F9BF: tensorflow::BFCAllocator::AllocateRaw(unsigned long, unsigned long) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+      n1: 5242880 0x11623F0C: tensorflow::Tensor::Tensor(tensorflow::Allocator*, tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+       n1: 5242880 0x115F53C1: tensorflow::OpKernelContext::allocate_tensor(tensorflow::DataType, tensorflow::TensorShape const&, tensorflow::Tensor*, tensorflow::AllocatorAttributes, tensorflow::AllocationAttributes const&) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+        n1: 5242880 0x115F57CF: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**, tensorflow::AllocatorAttributes) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+         n1: 5242880 0x115F5889: tensorflow::OpKernelContext::allocate_output(int, tensorflow::TensorShape const&, tensorflow::Tensor**) (in /home/apoorva/anaconda3/lib/python3.6/site-packages/tensorflow/libtensorflow_framework.so)
+          n0: 5242880 in 2 places, all below massif's threshold (1.00%)
+      n0: 2097152 in 1 place, below massif's threshold (1.00%)
+   n0: 6096 in 1 place, below massif's threshold (1.00%)
+  n0: 286944 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=120897767746
+mem_heap_B=519112364
+mem_heap_extra_B=3761836
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=122130033678
+mem_heap_B=507514936
+mem_heap_extra_B=3582736
+mem_stacks_B=0
+heap_tree=empty
